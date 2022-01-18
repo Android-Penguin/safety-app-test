@@ -1,0 +1,43 @@
+/** Ion column component */
+.card-column {
+    padding: 0;
+}
+
+/** Ion card component  */
+.activity-card {
+    padding: 10px;
+    min-height: 200px;
+    color: white;
+    --background: var(--primaryBP);
+    border-radius: 15px;
+}
+/** Ion Header and content containers */
+.activity-card ion-card-header, .activity-card ion-card-content {
+    padding: 0;
+}
+/** Card Icon */
+.icon-circle {
+    padding: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+}
+.icon-circle ion-icon {
+    width: 35px;
+    height: 35px;
+    color: var(--primaryBP);
+}
+/** Card Title */
+.activity-card ion-card-title {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+/** Card content */
+.activity-card ion-card-content {
+    height: 100%;
+    font-size: 1.4rem;
+}

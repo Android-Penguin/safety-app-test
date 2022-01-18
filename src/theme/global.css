@@ -1,0 +1,16 @@
+:root {
+    /** Font size */
+    font-size: 10px;
+
+    /** Provided colour pallette */
+    --primaryBP: #116AA4;
+    --primaryBPTint: #20AAFF;
+    --primaryBPContrast: #FFFFFF;
+    --secondaryBP: #000000;
+    --secondaryBPTint: #333238;
+    --successBP: #5cB85C;
+    --dangerBP: #FF7052;
+
+    /** Other colours */
+    --logoGrey: #333333;
+}
