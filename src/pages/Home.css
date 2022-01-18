@@ -1,4 +1,4 @@
 #activities-grid {
-    --ion-grid-width-lg: 60%;
-    --ion-grid-width-xl: 60%;
+    --ion-grid-width-lg: 900px;
+    --ion-grid-width-xl: 1000px;
 }
