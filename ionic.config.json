@@ -1,0 +1,7 @@
+{
+  "name": "safety-app-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
