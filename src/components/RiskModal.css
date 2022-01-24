@@ -1,0 +1,94 @@
+/** Top level modal element */
+.risk-modal {
+    /* --height: 90vh; */
+}
+/* ########## */
+/* # Header # */
+/* ########## */
+/** Grey toolbar at top of modal */
+.modal-toolbar {
+    --background: #D1D1D1;
+    --min-height: 20px;
+    color: var(--logoGrey);
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+/** Modal title */
+.modal-toolbar ion-title {
+    padding-left: 10px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+/** Close button  */
+.modal-toolbar ion-button {
+    --padding-top: 0;
+    --padding-end: 0;
+    --padding-bottom: 0;
+    --padding-start: 0;
+}
+.modal-toolbar ion-icon {
+    color: var(--logoGrey);
+}
+
+/* ########### */
+/* # Content # */
+/* ########### */
+/** Modal content  */
+.risk-modal ion-content {
+    --padding-top: 10px;
+    --padding-end: 10px;
+    --padding-bottom: 10px;
+    --padding-start: 10px;
+}
+.risk-modal ion-content div {
+    box-shadow: 0 0 5px greenyellow;
+}
+/** Consequence/likelihood question */
+.risk-question {
+    font-size: 1.5rem;
+}
+.selection-ui-container {
+    padding: 10px 0 10px 0;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+}
+/** First box (slider) */
+.selection-ui-container > div:nth-child(1) {
+    height: 100%;
+    aspect-ratio: 1 / 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px blue;
+}
+.vertical-slider {
+    height: 10%;
+    aspect-ratio: 9 / 1;
+    transform: rotate(270deg);
+    box-shadow: 0 0 5px deeppink;
+}
+/** Second box (cards) */
+.selection-ui-container div:nth-child(2) {
+    height: 100%;
+    width: 100px;
+}
+
+/* ########## */
+/* # Footer # */
+/* ########## */
+/** Modal footer */
+.footer-toolbar {
+    --background: #D1D1D1;
+    --min-height: 20px;
+    color: var(--logoGrey);
+}
+.footer-buttons ion-button {
+    margin: 5px;
+    background-color: var(--logoGrey);
+    color: white !important;
+    border-radius: 5px;
+}

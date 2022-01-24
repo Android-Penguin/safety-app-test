@@ -8,7 +8,7 @@
     padding: 10px;
     min-height: 200px;
     color: white;
-    --background: var(--primaryBP);
+    background-color: var(--primaryBP);
     border-radius: 15px;
 }
 /** Ion Header and content containers */

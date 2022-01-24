@@ -1,0 +1,29 @@
+#task-step-details-grid {
+    margin-top: 25px;
+    --ion-grid-width-lg: 900px;
+    --ion-grid-width-xl: 1000px;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+}
+#task-step-details-grid h1 {
+    font-weight: bold;
+}
+#description-container {
+    padding: 5px 5px 20px 5px;
+    border-style: solid;
+    border-width: 1.5px;
+}
+#description-container ion-textarea {
+    min-height: 50px;
+    max-height: 150px;
+    background-color: lightgrey;
+    font-size: 1.2rem;
+    border-radius: 2px;
+}
+.horizontal-container {
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
