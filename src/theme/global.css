@@ -13,4 +13,7 @@
 
     /** Other colours */
     --logoGrey: #333333;
+
+    /** Slider percentage */
+    --sliderPercentage: 100%;
 }

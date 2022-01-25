@@ -64,13 +64,10 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 5px blue;
+    border-radius: 10px;
+    overflow: hidden;
 }
-.vertical-slider {
-    height: 10%;
-    aspect-ratio: 9 / 1;
-    transform: rotate(270deg);
-    box-shadow: 0 0 5px deeppink;
-}
+/* ? Slider styles moved to separate file for readability */
 /** Second box (cards) */
 .selection-ui-container div:nth-child(2) {
     height: 100%;
