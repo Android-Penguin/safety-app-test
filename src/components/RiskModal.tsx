@@ -55,11 +55,30 @@ const RiskModal: React.FC<RiskModalProps> = ({modalState, setModalState}) => {
             <IonContent>
                 <div className="risk-question">What is the consequence if something goes wrong?</div>
                 <div className="selection-ui-container">
-                    <div>
+                    <div className="slider-container">
                         <input className="vertical-slider" onInput={changeValue} type="range" min="1" max="5"></input>
                     </div>
-                    <div>
-
+                    <div className="ratings-container">
+                        <div>
+                          <span>Critical</span>
+                          <span>(5)</span>
+                        </div>
+                        <div>
+                          <span>Major</span>
+                          <span>(4)</span>
+                        </div>
+                        <div>
+                          <span>Moderate</span>
+                          <span>(3)</span>
+                        </div>
+                        <div>
+                          <span>Minor</span>
+                          <span>(2)</span>
+                        </div>
+                        <div>
+                          <span>Low</span>
+                          <span>(1)</span>
+                        </div>
                     </div>
                 </div>
             </IonContent>
