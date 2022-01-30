@@ -67,11 +67,9 @@ const RiskModal: React.FC<RiskModalProps> = ({modalState, setModalState}) => {
             {/* Modal footer (controls) */}
             <IonFooter>
                 <IonToolbar class="footer-toolbar">
-                    <div className="center-content">
-                        <IonButtons class="footer-buttons">
-                            <IonButton mode="md">Previous</IonButton>
-                            <IonButton mode="md">Next</IonButton>
-                        </IonButtons>
+                    <div className="center-content footer-buttons">
+                        <IonButton mode="md">Previous</IonButton>
+                        <IonButton mode="md">Next</IonButton>
                     </div>
                 </IonToolbar>
             </IonFooter>

@@ -85,7 +85,7 @@
 }
 .footer-buttons ion-button {
     margin: 5px;
-    background-color: var(--logoGrey);
-    color: white !important;
+    --background: var(--logoGrey);
+    color: white;
     border-radius: 5px;
 }
