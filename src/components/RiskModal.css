@@ -67,7 +67,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(150, 150, 150);
-    border-radius: 10px;
+    border-radius: 7px;
     overflow: hidden;
 }
 /* ? Slider styles moved to separate file for readability */
@@ -80,33 +80,10 @@
     justify-content: space-between;
 }
 /** Rating button  */
-.ratings-container > div {
-    width: 100%;
+.ratings-container > ion-button {
+    --background: grey;
     height: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 4px 3px 5px rgba(150, 150, 150, 0.5);
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(150, 150, 150);
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.1s;
 }
-.ratings-container > div:hover {
-    filter: brightness(1.2);
-}
-.ratings-container > div:active {
-    box-shadow: 0px 0px 0px rgba(150, 150, 150, 0.5);
-    transform: translate(1px, 1px) scale(0.99);
-}
-.ratings-container > div:nth-child(1) { background-color: rgba(254,0,0,1);}
-.ratings-container > div:nth-child(2)  { background-color: rgba(254,128,24,1);}
-.ratings-container > div:nth-child(3) { background-color: rgba(254,255,48,1);}
-.ratings-container > div:nth-child(4) { background-color: rgba(127,231,25,1);}
-.ratings-container > div:nth-child(5) { background-color: rgba(0,206,1,1);}
 /** Text inside rating buttons */
 .ratings-container > div > span {
     color: black;

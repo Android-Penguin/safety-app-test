@@ -59,26 +59,11 @@ const RiskModal: React.FC<RiskModalProps> = ({modalState, setModalState}) => {
                         <input className="vertical-slider" onInput={changeValue} type="range" min="1" max="5"></input>
                     </div>
                     <div className="ratings-container">
-                        <div>
-                          <span>Critical</span>
-                          <span>(5)</span>
-                        </div>
-                        <div>
-                          <span>Major</span>
-                          <span>(4)</span>
-                        </div>
-                        <div>
-                          <span>Moderate</span>
-                          <span>(3)</span>
-                        </div>
-                        <div>
-                          <span>Minor</span>
-                          <span>(2)</span>
-                        </div>
-                        <div>
-                          <span>Low</span>
-                          <span>(1)</span>
-                        </div>
+                        <IonButton>Critical</IonButton>
+                        <IonButton>Major</IonButton>
+                        <IonButton>Moderate</IonButton>
+                        <IonButton>Minor</IonButton>
+                        <IonButton>Low</IonButton>
                     </div>
                 </div>
             </IonContent>

@@ -54,7 +54,8 @@
     background: gainsboro;
     background: 
         linear-gradient(90deg, rgba(255, 255, 255, 0) var(--sliderPercentage), rgba(150, 150, 150, 255) var(--sliderPercentage)),
-        linear-gradient(90deg, rgba(0,206,1,1) 0%, rgba(127,231,25,1) 25%, rgba(254,255,48,1) 50%, rgba(254,128,24,1) 75%, rgba(254,0,0,1) 100%);
+        /* linear-gradient(90deg, rgba(0,206,1,1) 0%, rgba(127,231,25,1) 25%, rgba(254,255,48,1) 50%, rgba(254,128,24,1) 75%, rgba(254,0,0,1) 100%); */
+        linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,14,14,1) 100%);
     cursor: pointer;
 }
 .vertical-slider::-moz-range-track {
@@ -63,6 +64,7 @@
     background-color: gainsboro;
     background: 
         linear-gradient(90deg, rgba(255, 255, 255, 0) var(--sliderPercentage), rgba(150, 150, 150, 255) var(--sliderPercentage)),
-        linear-gradient(90deg, rgba(0,206,1,1) 0%, rgba(127,231,25,1) 25%, rgba(254,255,48,1) 50%, rgba(254,128,24,1) 75%, rgba(254,0,0,1) 100%);
+        /* linear-gradient(90deg, rgba(0,206,1,1) 0%, rgba(127,231,25,1) 25%, rgba(254,255,48,1) 50%, rgba(254,128,24,1) 75%, rgba(254,0,0,1) 100%); */
+        linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,14,14,1) 100%);
     cursor: pointer;
 }
