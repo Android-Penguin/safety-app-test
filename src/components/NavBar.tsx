@@ -19,11 +19,18 @@ const NavBar: React.FC<NavProps> = () => {
 
             {/* Nav buttons */}
             <IonButtons slot="end">
-                <IonButton href="/home">
+                {/* <IonButton href="/home">
                     <IonIcon icon={home} slot="icon-only"></IonIcon>
-                </IonButton>
+                </IonButton> */}
                 <IonButton id="menu-button">
-                    <IonIcon icon={ellipsisHorizontal} slot="icon-only"></IonIcon>
+                    <div id="lines-container">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    {/* <IonIcon icon={ellipsisHorizontal} slot="icon-only"></IonIcon> */}
                 </IonButton>
             </IonButtons>
 
