@@ -1,5 +1,5 @@
 import { IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import { alert, calculator, car, chatboxEllipses, checkbox, checkmark, documentText, medkit } from 'ionicons/icons'
+import { alert, calculator, car, chatboxEllipses, checkbox, checkmark, desktop, documentText, medkit } from 'ionicons/icons'
 import ExploreContainer from '../components/ExploreContainer';
 import NavBar from '../components/NavBar';
 import ActivityCard from '../components/ActivityCard';
@@ -55,8 +55,14 @@ const Home: React.FC = () => {
               cardTitle="Risk assessment matrix"
               cardContent="Experimental UI for selecting risk levels in a slider/card arrangement"
               cardColor="#FF7052"
-              href="/risk-assessment-matrix"
-             />
+              href="/risk-assessment-matrix"/>
+            {/* #9 */}
+            <ActivityCard
+              cardIcon={desktop}
+              cardTitle="Splash Screen"
+              cardContent="Screen users are greeted with upon opening app"
+              cardColor="#5cB85C"
+              href="/splash" />
           </IonRow>
         </IonGrid>
       </IonContent>

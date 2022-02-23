@@ -23,6 +23,7 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import './theme/global.css';
 import Matrix from './pages/Matrix';
+import Splash from './pages/Splash';
 
 setupIonicReact();
 
@@ -38,6 +39,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/risk-assessment-matrix">
           <Matrix />
+        </Route>
+        <Route exact path="/splash">
+          <Splash />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

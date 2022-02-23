@@ -19,9 +19,9 @@ const NavBar: React.FC<NavProps> = () => {
 
             {/* Nav buttons */}
             <IonButtons slot="end">
-                {/* <IonButton href="/home">
+                <IonButton href="/home" style={{"marginRight":"15px"}}>
                     <IonIcon icon={home} slot="icon-only"></IonIcon>
-                </IonButton> */}
+                </IonButton>
                 <IonButton id="menu-button">
                     <div id="lines-container">
                         <div></div>
