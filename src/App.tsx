@@ -24,6 +24,7 @@ import './theme/variables.css';
 import './theme/global.css';
 import Matrix from './pages/Matrix';
 import Splash from './pages/Splash';
+import Resize from './pages/ResizingDivs';
 
 setupIonicReact();
 
@@ -42,6 +43,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/splash">
           <Splash />
+        </Route>
+        <Route exact path="/resizable">
+          <Resize />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

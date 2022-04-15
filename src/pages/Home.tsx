@@ -1,5 +1,5 @@
-import { IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import { alert, calculator, car, chatboxEllipses, checkbox, checkmark, desktop, documentText, medkit } from 'ionicons/icons'
+import { IonButton, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
+import { alert, calculator, car, chatboxEllipses, checkbox, checkmark, desktop, documentText, expandOutline, medkit } from 'ionicons/icons'
 import ExploreContainer from '../components/ExploreContainer';
 import NavBar from '../components/NavBar';
 import ActivityCard from '../components/ActivityCard';
@@ -63,6 +63,12 @@ const Home: React.FC = () => {
               cardContent="Screen users are greeted with upon opening app"
               cardColor="#5cB85C"
               href="/splash" />
+            <ActivityCard
+              cardIcon={expandOutline}
+              cardTitle="Splash Screen"
+              cardContent="Experimenting with resizing divs"
+              cardColor="#FF00FF"
+              href="/resizable" />
           </IonRow>
         </IonGrid>
       </IonContent>
