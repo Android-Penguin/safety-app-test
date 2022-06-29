@@ -13,7 +13,7 @@ const Splash: React.FC = () => {
                         {/* Tape divider */}
                         <div></div>
                         {/* OSS text */}
-                        <img src="./assets/ui_images/oss_cone_text_only.svg"></img>
+                        <img src="./assets/ui_images/oss_title_white.svg"></img>
                     </div>
                     {/* Buildaprice logo */}
                     <div id="bp-logo-grid">

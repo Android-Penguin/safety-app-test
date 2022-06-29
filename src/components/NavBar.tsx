@@ -28,7 +28,7 @@ const NavBar: React.FC<NavProps> = ({ stackedIcon, href }) => {
                         }
                     </div>
                 </a>
-                <img id="oss-title-text" src="./assets/ui_images/oss_cone_text_only.svg" />
+                <img id="oss-title-text" src="./assets/ui_images/oss_title_black.svg" />
             </div>
 
             {/* Nav buttons */}
