@@ -18,19 +18,17 @@ const StackedIcons: React.FC<StackedIconProps> = () => {
                     <IonButton id="open-modal">Go to task analysis</IonButton>
                 </div>
                 <IonModal id="stacked-modal" trigger="open-modal">
-                    <div>
-                        <IonHeader>
-                            <NavBar href="/stacked-icons" stackedIcon="speech_bubble.svg" />
-                        </IonHeader>
-                        <IonHeader id="return-header">
-                            <a href="/stacked-icons">&lt; Return to Toolbox Talk</a>
-                        </IonHeader>
-                        <IonContent>
-                            <div style={{"margin":"10px"}}>
-                                <h1>Task analysis</h1>
-                            </div>
-                        </IonContent>
-                    </div>
+                    <IonHeader>
+                        <NavBar href="/stacked-icons" stackedIcon="speech_bubble.svg" />
+                    </IonHeader>
+                    <IonHeader id="return-header">
+                        <a href="/stacked-icons">&lt; Return to Toolbox Talk</a>
+                    </IonHeader>
+                    <IonContent>
+                        <div style={{"margin":"10px"}}>
+                            <h1>Task analysis</h1>
+                        </div>
+                    </IonContent>
                 </IonModal>
             </IonContent>
         </IonPage>
