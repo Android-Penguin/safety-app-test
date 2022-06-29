@@ -1,12 +1,11 @@
+/*? Stylesheet for both toolbox talk mockup */
+/*? and nested TA mockup */
+
 #return-header {
     padding: 5px;
+    background-color: aliceblue;
 }
 #return-header a {
     font-size: 12px;
 }
 
-/* Modal for stacked page */
-#stacked-modal {
-    --width: 100vw;
-    --min-height: 100vh;
-}

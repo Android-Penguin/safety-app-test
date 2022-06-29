@@ -26,6 +26,7 @@ import Matrix from './pages/Matrix';
 import Splash from './pages/Splash';
 import Resize from './pages/ResizingDivs';
 import StackedIcons from './pages/StackedIcons';
+import NestedTA from './pages/NestedTA';
 
 setupIonicReact();
 
@@ -50,6 +51,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/stacked-icons">
           <StackedIcons />
+        </Route>
+        <Route exact path="/nested-ta">
+          <NestedTA />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
