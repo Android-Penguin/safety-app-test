@@ -1,5 +1,5 @@
 import { IonButton, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import { alert, calculator, car, chatboxEllipses, checkbox, checkmark, desktop, documentText, expandOutline, medkit } from 'ionicons/icons'
+import { alert, calculator, car, chatboxEllipses, checkbox, checkmark, copy, desktop, documentText, expandOutline, medkit } from 'ionicons/icons'
 import ExploreContainer from '../components/ExploreContainer';
 import NavBar from '../components/NavBar';
 import ActivityCard from '../components/ActivityCard';
@@ -18,7 +18,8 @@ const Home: React.FC = () => {
             <ActivityCard
               cardIcon={chatboxEllipses}
               cardTitle="Toolbox Talk"
-              cardContent="Record health & safety site meetings" />
+              cardContent="Record health & safety site meetings"
+              href="/stacked-icons" />
             {/* #2 */}
             <ActivityCard
               cardIcon={checkmark}
@@ -65,10 +66,16 @@ const Home: React.FC = () => {
               href="/splash" />
             <ActivityCard
               cardIcon={expandOutline}
-              cardTitle="Splash Screen"
+              cardTitle="Rotated Slider"
               cardContent="Experimenting with resizing divs"
               cardColor="#FF00FF"
               href="/resizable" />
+            <ActivityCard
+              cardIcon={copy}
+              cardTitle="Stacked icons"
+              cardContent="Modified home icon for pages accessed from another activity"
+              cardColor="#63C5DA"
+              href="/stacked-icons" />
           </IonRow>
         </IonGrid>
       </IonContent>

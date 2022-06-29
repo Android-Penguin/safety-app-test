@@ -2,26 +2,40 @@ import { IonButton, IonButtons, IonContent, IonIcon, IonItem, IonList, IonListHe
 import { ellipsisHorizontal, home } from 'ionicons/icons';
 import './NavBar.css';
 
-interface NavProps {}
+interface NavProps {
+    stackedIcon?: string
+    href?: string
+}
 
-const NavBar: React.FC<NavProps> = () => {
+const NavBar: React.FC<NavProps> = ({ stackedIcon, href }) => {
     return(
         <div>
         <IonToolbar id="nav-bar">
             <div id="title-container">
-                <picture>
-                    <source media="(min-width:992px)" srcSet="./assets/ui_images/Builda_Price_Logo_Full.png"></source>
-                    <source media="(min-width:576px)" srcSet="./assets/ui_images/Builda_Price_Logo_Icon.png"></source>
-                    <img src="./assets/ui_images/Builda_Price_Logo_Icon.png"></img>
-                </picture>
-                <h1>Onsite Safety</h1>
+                <a href={ href || "/home" }>
+                    <div id="icon-grid">
+                        { stackedIcon ?
+                            <>
+                            <img className="lower-icon" src="./assets/ui_images/oss_cone.svg" />
+                            <div className="upper-icon">
+                                <img src={`./assets/ui_images/${stackedIcon}`}></img>
+                            </div>
+                            </>
+                            :
+                            <>
+                            <img className="full-icon" src="./assets/ui_images/oss_cone.svg" />
+                            </>
+                        }
+                    </div>
+                </a>
+                <img id="oss-title-text" src="./assets/ui_images/oss_cone_text_only.svg" />
             </div>
 
             {/* Nav buttons */}
             <IonButtons slot="end">
-                <IonButton href="/home" style={{"marginRight":"15px"}}>
+                {/* <IonButton href="/home" style={{"marginRight":"15px"}}>
                     <IonIcon icon={home} slot="icon-only"></IonIcon>
-                </IonButton>
+                </IonButton> */}
                 <IonButton id="menu-button">
                     <div id="lines-container">
                         <div></div>
