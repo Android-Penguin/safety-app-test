@@ -1,5 +1,5 @@
 import { IonButton, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import { alert, calculator, car, chatboxEllipses, checkbox, checkmark, copy, desktop, documentText, expandOutline, medkit } from 'ionicons/icons'
+import { alert, calculator, car, chatboxEllipses, checkbox, checkmark, copy, desktop, documentText, expandOutline, image, medkit } from 'ionicons/icons'
 import ExploreContainer from '../components/ExploreContainer';
 import NavBar from '../components/NavBar';
 import ActivityCard from '../components/ActivityCard';
@@ -76,6 +76,12 @@ const Home: React.FC = () => {
               cardContent="Modified home icon for pages accessed from another activity"
               cardColor="#63C5DA"
               href="/stacked-icons" />
+            <ActivityCard
+              cardIcon={image}
+              cardTitle="Image Viewer"
+              cardContent="View images with pinch to zoom touch controls"
+              cardColor="#FDD128"
+              href="/image-viewer" />
           </IonRow>
         </IonGrid>
       </IonContent>

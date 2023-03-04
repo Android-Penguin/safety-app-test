@@ -27,6 +27,7 @@ import Splash from './pages/Splash';
 import Resize from './pages/ResizingDivs';
 import StackedIcons from './pages/StackedIcons';
 import NestedTA from './pages/NestedTA';
+import ImagePage from './pages/ImagePage';
 
 setupIonicReact();
 
@@ -54,6 +55,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/nested-ta">
           <NestedTA />
+        </Route>
+        <Route exact path="/image-viewer">
+          <ImagePage />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

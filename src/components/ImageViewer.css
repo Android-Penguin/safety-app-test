@@ -1,0 +1,10 @@
+/* Swiper container */
+.img-doc-container {
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+}
+
+/* Image within container */
+.img-doc-container img {
+    box-shadow: 0 0 5px var(--primaryBPTint);
+}
